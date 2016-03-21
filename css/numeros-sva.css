@@ -1,0 +1,351 @@
+/* STYLE DES NUMEROS SPECIAUX PRESENTS DANS LES MENTIONS LEGALES SUR L'ENSEMBLE DU SITE PRI */
+
+
+
+
+/***********  WEBCALL BACK ************/
+
+.n2g_wcb2011_container .n2g_wcb2011_header {
+    height: 42px;
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-top.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_header.n2g_wcb2011_mrh_header {
+     background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-top-devis.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_section {
+    height: 83px;
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-middle.jpg);
+}
+
+        .n2g_wcb2011_container .n2g_wcb2011_votre_numero {
+            position: absolute;
+            height: 20px;
+            width: 90px;
+            left: 25px;
+            top: 85px;
+
+        }
+
+        .n2g_wcb2011_container .n2g_wcb2011_votre_numero input {
+            border: 1px solid #15aad5;
+            width: 98px;
+            height: 19px;
+        }
+
+        .n2g_wcb2011_container .n2g_wcb2011_btn {
+            position: absolute;
+            height: 23px;
+            width: 26px;
+            left: 125px;
+            top: 85px;
+        }
+
+      .n2g_wcb2011_container .n2g_wcb2011_3955 {
+            height: 61px;
+            text-indent: -100000px;
+        }
+
+
+/*********** DIFFERENT TYPE DE WEBCALL BACK ************/
+.n2g_wcb2011_container .n2g_wcb2011_3955_option {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-option.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_alterna {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-alterna.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_epargne {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-epargne.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_cartes {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-cartes.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_plus {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-plus.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_livret_a {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-livret-a.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_solidaire {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-solidaire.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_expresso {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-expresso.jpg);
+}
+
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_assurance {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-assurance.jpg);
+}
+
+.n2g_wcb2011_container .n2g_wcb2011_3955_somusic {
+    background-image: url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/08-Webcallback_2011/wcb-2015/img/n2g-wcb-bottom-somusic.jpg);
+}
+
+
+/********** MENTIONS LEGALES **********/
+
+.nums-sva {
+    padding: 6px 19px;
+    font-weight: bold;
+    color: #8c2570;
+    font-size: 12px;
+    display:inline-block;
+    margin-left:4px;
+
+}
+
+
+.numeros-sva-05{background-image:url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/20-numeros-sva/img/numeros-sva-05.jpg); background-repeat:no-repeat;width:205px}
+.numeros-sva-10{background-image:url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/20-numeros-sva/img/numeros-sva-10.jpg); background-repeat:no-repeat;width:205px}
+.numeros-sva-15{background-image:url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/20-numeros-sva/img/numeros-sva-15.jpg); background-repeat:no-repeat;width:205px;}
+.numeros-sva-30{background-image:url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/20-numeros-sva/img/numeros-sva-30.jpg); background-repeat:no-repeat;width:205px;}
+.numeros-sva-30-mini {background-image:url(https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/02-Modules/20-numeros-sva/img/numeros-sva-30-mini.jpg); background-repeat:no-repeat;padding: 6px 7px;width:118px;
+}
+
+
+
+/* Numero Gris */
+.numfreemini{background-image:url(img/p357-numeros-speciaux-bg-gray-tel-free.jpg); background-repeat:no-repeat;}
+
+
+/************/
+/* EXPRESSO */
+/************/
+
+a{
+  text-decoration: none;
+}
+
+#page_expresso{
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+#exemple {
+  padding: 0 15px 15px 15px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+#exemple p{
+  padding: 0;
+  margin: 0;
+}
+
+#exemple sup{
+  font-size: 8px;
+}
+
+#exemple strong{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#bandeau{
+  position: relative;
+  text-align: right;
+  width: 978px;
+  height: 406px;
+  background: url('../images/expresso_theme.jpg') no-repeat;;
+}
+
+#offre{
+  display: inline-block;
+  margin-top: 35px;
+  text-align: left;
+  background: #3f4447;
+  padding: 30px 60px ;
+  color: #ffffff;
+}
+
+#offre h1{
+  display: block;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#offre h1 sup{
+  font-size: 13px;
+}
+
+#offre #taux{
+  display: inline-block;
+  font-size: 133px;
+}
+
+#offre #mentions{
+  width: 118px;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+#offre #mentions span{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.simulation{
+  margin-top: 20px;
+}
+
+.btn{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  padding: 18px 20px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+
+
+.btn.simulation{
+  font-weight: 500;
+  border-radius: 2px;
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  color: #a93639;
+  background: #ffffff;
+  border-bottom: 2px solid #666666;
+  transition: background 0.2s;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn.simulation:hover{
+  background: #e9eff3;
+  transition: background 0.3s;
+}
+
+.btn.simulation div{
+  position: relative;
+}
+
+i.picto_simulation{
+  position: relative;
+  top:1px;
+}
+
+i.picto_simulation:before{
+  content:'';
+  display: inline-block;
+  margin-right: 15px;
+  width: 25px;
+  height: 21px;
+  background-image: url('../images/picto_simulation.png');
+  background-image: -webkit-image-set( url('../images/picto_simulation.png') 1x, url('../images/picto_simulation-2x.png') 2x );
+  background-size: 100%;
+  padding: 0;
+}
+
+#contact{
+  background: #efefef;
+  padding: 30px;
+  text-align: center;
+}
+
+#contact .cta{
+  margin: auto;;
+}
+
+.btn.contact{
+  font-size: 19px;
+  display: inline-block;
+  width: 330px;
+  color: #2d2d2c;
+  background: #ffffff;
+  border: none;
+  border-bottom: 2px solid #666666;
+  transition: background 0.2s;
+}
+
+.btn.contact:hover{
+  background: #f8f8f8;
+  border-bottom: 2px solid #666666;
+  transition: background 0.3s;
+}
+
+.btn.souscrire{
+  font-size: 19px;
+  font-weight: 500;;
+  margin-left: 60px;
+  display: inline-block;
+  width: 330px;
+  color: #ffffff;
+  background: #a93639;
+  border: none;
+  border-bottom: 2px solid #733b3b;
+  transition: background 0.2s;
+}
+
+.btn.souscrire:hover{
+  background: #902e31;
+  border-bottom: 2px solid #623232;
+  transition: background 0.3s;
+}
+
+
+i.arrow:before{
+  content:'';
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  width: 7px;
+  height: 21px;
+  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/button_arrow.png');
+  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/button_arrow.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/button_arrow-2x.png') 2x );
+}
+
+i.arrow.white:before{
+  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/button_arrow_white.png');
+  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/button_arrow_white.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/button_arrow_white-2x.png') 2x );
+}
+
+
+#mentions_legales {
+  padding: 15px 15px 7px 15px;
+	font-size: 11px;
+  color: #666666;
+}
+
+
+#mentions_legales .mentions{
+	counter-reset: mention_count;
+  margin-bottom: 0;
+}
+
+#mentions_legales .mentions dt {
+	position: relative;
+  padding: 0px 0 7px 0;
+  padding-left: 20px;
+  line-height: 15px;
+}
+
+#mentions_legales .mentions dt.last {
+  margin-bottom: 0;
+}
+
+
+#mentions_legales .mentions dt:before{
+	content: '('counter(mention_count)')';
+    counter-increment: mention_count;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 11px;
+}
