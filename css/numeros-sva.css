@@ -155,7 +155,7 @@ a{
   text-align: right;
   width: 978px;
   height: 406px;
-  background: url('../images/expresso_theme.jpg') no-repeat;;
+  background: url('../images/expresso_theme.jpg') no-repeat;
 }
 
 #offre{
@@ -163,6 +163,11 @@ a{
   margin-top: 35px;
   text-align: left;
   background: #3f4447;
+  background:rgb(62,67,69);
+  background: transparent\9;
+  background:rgba(62,67,69,0.9);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5FFFFFF,endColorstr=#e5FFFFFF);
+  zoom: 1;
   padding: 30px 60px ;
   color: #ffffff;
 }
@@ -348,4 +353,9 @@ i.arrow.white:before{
     left: 0;
     top: 0;
     font-size: 11px;
+}
+
+#mentions_legales p{
+  margin: 0;
+  padding: 0;
 }
