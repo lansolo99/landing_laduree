@@ -1,0 +1,514 @@
+
+	/*********/
+	/* RESET */
+	/*********/
+
+	header, nav, footer, figure, section, article {display: block;}
+	html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, strong, sub, sup, dl, dt, dd, ul, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {margin: 0;	padding: 0;	border: 0;	outline: 0; text-decoration: none;}
+
+
+
+	/*********/
+	/* BORDER BOX */
+	/*********/
+
+	body {
+	  box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  -o-box-sizing: border-box;
+	}
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	  -moz-box-sizing: inherit;
+	  -webkit-box-sizing: inherit;
+	  -o-box-sizing: inherit;
+	}
+
+
+	/*********/
+	/* FONT */
+	/*********/
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	strong { font-weight: bold; }
+
+
+
+	/*********/
+	/* GENERAL */
+	/*********/
+
+
+	body {
+	  font-family: 'Arial', sans-serif;
+		height: 100%;
+		background-color: white;
+	}
+
+
+	.segment{
+	  width: 100%;
+	}
+
+	.segment.header{
+	  background: #282525;
+	  padding: 5%;
+	}
+
+	.segment.bandeau{
+	  padding: 0;
+	}
+
+  .segment.services{
+    background: #e5f1f1;
+    padding: 6%;
+    padding-top: 9%;
+  }
+
+  .segment.border{
+	  padding: 0;
+	}
+
+  .segment.cartes{
+    background: #c2dfe0;
+  }
+
+  .segment.cadeau{
+    background: #fbf8ee;
+  }
+
+	.segment.contact {
+	  background: #ffffff;
+	  padding: 6%;
+		padding-top: 	8%;
+	  padding-bottom: 10vw;
+	}
+
+	.segment.mentions_legales {
+	  border-top: 1px solid #bfbfbf;
+	  background: #ffffff;
+	  padding: 6%;
+	}
+
+	.segment.footer {
+	  background: #ffffff;
+	  padding: 6%;
+	  border-top: 1px solid #CCCCCC;
+	}
+
+
+
+	/* Header */
+
+	header{
+		position: relative;
+		clear:both;
+	  width: 100%;
+	  max-width: 768px;
+	}
+
+
+	#logo img{
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+
+
+	/* Bandeau */
+
+	#bandeau{
+	  display: block;
+	  position: relative;
+  }
+
+  #main-image{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  #bandeau .main-message{
+    position: absolute;
+    text-align: center;
+    top: 38vw;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 4vw 0;
+  }
+
+  #bandeau h1{
+    color: #224547;
+    font-size: 4.6vw;
+    line-height: 7.5vw;
+    font-weight: 300;
+  }
+
+  #bandeau h1 sup{
+    font-size: 3vw;
+  }
+
+
+	/* Services */
+
+  #services{
+  text-align: center;
+  }
+
+  #services h2{
+    font-size: 4vw;
+    color: #575757;
+    text-transform: uppercase;
+  }
+
+  #services .section{
+    margin-top: 6vw;
+  }
+
+  #services h3{
+    font-size: 4.3vw;
+    text-transform: uppercase;
+    line-height: 6.5vw;
+  }
+
+  #services h3 sup{
+    font-size: 2.8vw;
+  }
+
+  #services .section p{
+    font-size: 4.2vw;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+    line-height: 6.5vw;
+  }
+
+  #services p.download{
+    color: #666666;
+    font-size: 4vw;
+  }
+
+  #services p.download a{
+    color: #666666;
+    line-height: 6vw;
+    text-decoration: underline;
+  }
+
+
+	/* Cartes */
+
+  .segment.border img.border{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #cartes{
+    padding: 8%;
+    text-align: center;
+    font-size: 4.2vw;
+    color: #414d4f;
+  }
+
+  #cartes img.carte_mastercard,  #cartes img.carte_gold_mastercard {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 9vw;
+  }
+
+  #cartes .tirage{
+    position: relative;
+    margin-top: 24vw;
+    border: 1px solid #a2b9bb;
+    padding:5vw;
+    padding-top: 6.5vw;
+  }
+
+  #cartes .tirage span{
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2vw;
+  }
+
+  #cartes .tirage p{
+    line-height: 8vw;
+  }
+
+  #cartes .tirage p a{
+    text-decoration: underline;
+    color: #414d4f;
+  }
+
+  #cartes .tirage .theme{
+    position: absolute;
+    display: block;
+    width: 30%;
+    height: auto;
+    top:-19.5vw;
+    left: 35%;
+  }
+
+  #cartes .tirage .theme img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 9vw;
+  }
+
+
+	/* Cadeau */
+
+  #cadeau{
+    padding:8% 8% 0% 8%;
+    color: #372e2d;
+    position: relative;
+  }
+
+  #cadeau h2{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+
+  #cadeau img.porte-carte {
+    margin-top: 5vw;
+    position: relative;
+    display: block;
+    width: 44%;
+    height: auto;
+  }
+
+  #cadeau .message{
+    position: absolute;
+    top:12%;
+    right:8%;
+    width: 40%;
+    height: auto;
+  }
+
+  #cadeau .message p{
+    font-size: 4.2vw;
+    line-height: 6.5vw;
+  }
+
+
+	/* Contact */
+
+	#contact p, #contact h2{
+	  color: #333333;
+	  display: block;
+	  text-transform: uppercase;
+	  line-height: 8vw;
+	  margin-top: -0.5vw;
+	  font-size: 5vw;
+	  font-weight: 400;
+	}
+
+	#contact p sup{
+		font-size: 3vw;
+	}
+
+
+	#contact h2{
+	  margin-top: 5vw;
+	  color: #000;
+	  font-weight: 500;
+	}
+
+	.segment.contact a {
+		color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+	}
+
+
+
+
+	.btn.contact{
+	  padding-top: 4vw;
+	  padding-bottom: 4vw;
+	  margin-top: 5vw;
+	  font-size: 5.5vw;
+	  font-weight: 400;
+	  padding-left: 17vw;
+	  color: #333333;
+	  border: 1px solid #666666;
+	  border-bottom: 2px solid #666666;
+	  border-radius: 3px;
+	}
+
+	.btn.contact .label{
+	  position: relative;
+	  line-height: 6.5vw;
+	}
+
+	.btn.contact .label span.laduree{
+	  color: #588bd5;
+	}
+
+	.btn.contact .label span.method{
+	  font-weight: 500;
+	}
+
+
+	i.picto_tel:before{
+	  content:'';
+	  display: block;
+	  position: absolute;
+	  top: 5vw;
+	  left: 4vw;
+	  width: 8.5vw;
+	  height: 8.5vw;
+	  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_tel.png');
+	  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_tel.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_tel-2x.png') 2x );
+	  background-size: 100%;
+	}
+
+	i.picto_agence:before{
+	  content:'';
+	  display: block;
+	  position: absolute;
+	  top: 5vw;
+	  left: 4vw;
+	  width: 8.5vw;
+	  height: 8.5vw;
+	  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_agence.png');
+	  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_agence.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_agence-2x.png') 2x );
+	  background-size: 100%;
+	}
+
+
+
+
+
+
+	/* Mentions légales */
+
+	#mention{
+	  position: absolute;
+	  top:48vw;
+	  right:0vw;
+	  color: #ffffff;
+	  font-size: 4vw;
+	  font-weight: 300;
+	  line-height: 6vw;
+	}
+
+	#mentions_legales {
+		font-size: 4vw;
+	  color: #727577;
+	}
+
+	#mentions_legales a{
+		color: #727577;
+		text-decoration: underline;
+	}
+
+	#mentions_legales h3 {
+	  display: block;
+	  position: relative;
+		cursor : pointer;
+	  font-weight: 400;
+	  font-size: 4vw;
+	}
+
+
+	#mentions_legales .mentions{
+		counter-reset: mention_count;
+	  margin-top: 6vw;
+	}
+
+	#mentions_legales .mentions dt {
+		position: relative;
+	  padding: 0 0 5vw 0;
+	  padding-left: 9vw;
+	  line-height: 5vw;
+	  text-align: left;
+	}
+
+	#mentions_legales .mentions dt:last-child {
+		padding-bottom: 20vw;
+	}
+
+
+	#mentions_legales .mentions dt:before{
+		content: '('counter(mention_count)')';
+	  counter-increment: mention_count;
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  font-size: 4vw;
+	}
+
+	#mentions_legales .mentions dt span{
+	white-space: nowrap;
+	}
+
+	.ui-icon.iconOpen {
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_minus.png');
+	  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_minus.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_minus-2x.png') 2x );
+	  background-size:100%;
+	  width:4.5vw;
+	  height:4.5vw;
+	}
+	.ui-icon.iconClosed {
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_plus.png');
+	  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_plus.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_plus-2x.png') 2x );
+	  background-size:100%;
+	  width:4.5vw;
+	  height:4.5vw;
+
+	}
+
+	/* Footer */
+
+	#footer{
+
+	  text-align: center;
+	}
+
+	#footer a {
+	  color: #666666;
+	  font-size: 3.4vw;
+	  font-weight: 400;
+	}
+
+	#footer ul{
+	  /* margin-top: 5vw; */
+	}
+
+	#footer ul li:first-child {
+	  border-left: 0;
+	  margin-left: 0;
+	}
+
+	#footer ul li {
+	  display: inline-block;
+	  vertical-align: middle;
+	  border-left: 1px solid #b6b6b6;
+	  padding-left: 2vw;
+	  margin-left: 2vw;
+	  margin-bottom: 2vw;
+	}
